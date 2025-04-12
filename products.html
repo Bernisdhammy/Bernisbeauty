@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Bernisbeauty</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Bernisbeauty</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="9" cy="21" r="1"></circle>
+                    <circle cx="20" cy="21" r="1"></circle>
+                    <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                </svg>
+                <span id="cart-count">0</span>
+            </div>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Our Products</h1>
+            <p>Discover our premium collection of body care products</p>
+        </section>
+
+        <section class="product-categories">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Products</button>
+                <button class="category-tab" data-category="lotions">Body Lotions</button>
+                <button class="category-tab" data-category="oils">Body Oils</button>
+                <button class="category-tab" data-category="wash">Body Wash</button>
+                <button class="category-tab" data-category="Chewables">Chewables</button>
+                <button class="category-tab" data-category="Capsules">Capsules</button>
+                <button class="category-tab" data-category="Powder">powder</button>
+            </div>
+        </section>
+
+        <section id="products" class="products">
+            <div class="product-grid">
+                <div class="product-card" data-id="1" data-category="lotions">
+                    <div class="product-image">
+                        <img src="Coco Brightening Cream.jpg" alt="Coco Brightening Cream">
+                    </div>
+                    <h3>Coco Brightening Cream</h3>
+                    <p>Derminish the appearance of dark patches</p>
+                    <div class="product-price">GH₵250.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="2" data-category="oils">
+                    <div class="product-image">
+                        <img src="Whitenining Glow Oil.jpg" alt="Whitenining Glow Oil">
+                    </div>
+                    <h3>Whitenining Glow Oil</h3>
+                    <p>Deeply Whitenining the skin,While maintaining its brightness for a long time</p>
+                    <div class="product-price">GH₵140.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="3" data-category="oils">
+                    <div class="product-image">
+                        <img src="Stretch Mark.jpg" alt="Stretch Mark">
+                    </div>
+                    <h3>Stretch mark</h3>
+                    <p>Clear the appearance of stretch marks and scars</p>
+                    <div class="product-price">GH₵170.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="4" data-category="wash">
+                    <div class="product-image">
+                        <img src="carrot Lightening Soap.jpg" alt="Carrot Lightening Soap">
+                    </div>
+                    <h3>Carrot Lightening Soap</h3>
+                    <p>Brightening dark spots and blemishes</p>
+                    <div class="product-price">GH₵220.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="5" data-category="lotions">
+                    <div class="product-image">
+                        <img src="whitenining Face Cream.jpg" alt="Face Cream">
+                    </div>
+                    <h3>Face Cream</h3>
+                    <p>Deep hydration for extremely dry face</p>
+                    <div class="product-price">GH₵100.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="6" data-category="Capsules">
+                    <div class="product-image">
+                        <img src="Glutathione White.jpg" alt="Glutathione White">
+                    </div>
+                    <h3>Glutathione White</h3>
+                    <p>10x Bright healthy & glowing skin</p>
+                    <div class="product-price">GH₵350.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="7" data-category="Powder">
+                    <div class="product-image">
+                        <img src="Collagen.jpg" alt="Collagen">
+                    </div>
+                    <h3>Collagen</h3>
+                    <p>Glowing skin & Age defying</p>
+                    <div class="product-price">GH₵550.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+                <div class="product-card" data-id="8" data-category="Chewables">
+                    <div class="product-image">
+                        <img src="Gummmies.jpeg" alt="Gummies">
+                    </div>
+                    <h3>gummies</h3>
+                    <p>Designed to improve skin health</p>
+                    <div class="product-price">GH₵200.00</div>
+                    <button class="add-to-cart">Add to Bag</button>
+                </div>
+            </div>
+        </section>
+    </main>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Bernisbeauty. All rights reserved.</p>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
