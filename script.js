@@ -69,10 +69,10 @@ document.addEventListener("DOMContentLoaded", () => {
       // Show added to cart animation
       showAddedToCart(productCard)
 
-      // Redirect to cart page after adding item
-      setTimeout(() => {
-        window.location.href = "cart.html"
-      }, 1000)
+      // Remove the redirection to cart page
+      // setTimeout(() => {
+      //   window.location.href = "cart.html"
+      // }, 1000)
     })
   })
 
